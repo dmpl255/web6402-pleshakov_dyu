@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: #003366;
+  margin-top: 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #cc3300;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#site-title {
+  color: #ffffff;
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.header {
+  background-color: #003366;
+  padding: 15px 30px;
+}
+
+.header nav a {
+  color: #ffffff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.header nav a.active {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.header nav a.active:hover {
+  text-decoration: none;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-item {
+  border-left: 4px solid #0066cc;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  background-color: #eef6ff;
+}
+
+.facts-list li {
+  margin-bottom: 8px;
+}
+
+.info-block {
+  background-color: #f0f8ff;
+  padding: 15px 20px;
+  border-left: 4px solid #003366;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  color: #003366;
+}
+
+blockquote {
+  background-color: #fff8e1;
+  border-left: 4px solid #ffcc00;
+  padding: 15px 20px;
+  font-style: italic;
+  color: #444;
+  margin: 20px 0;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  color: #003366;
+}
+
+.page-image {
+  display: block;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.planets-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+}
+
+.planets-table th {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #003366;
+}
+
+.planets-table td {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+}
+
+.planets-table tr:nth-child(even) {
+  background-color: #f0f6fc;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
