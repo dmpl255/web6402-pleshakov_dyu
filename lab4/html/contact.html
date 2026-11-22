@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Форма обратной связи проекта Физика сегодня.">
+  <title>Физика сегодня - обратная связь</title>
+  <link rel="icon" href="../images/atom.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner container">
+      <a class="brand" href="../index.html" aria-label="Физика сегодня - главная"><span class="brand__mark" aria-hidden="true">✳</span><span class="brand__text">Физика <span>сегодня</span></span></a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav__link" href="../index.html">Главная</a>
+        <a class="site-nav__link" href="facts.html">Факты и астрономия</a>
+        <a class="site-nav__link" href="about.html">О себе</a>
+        <a class="site-nav__link site-nav__link--accent site-nav__link--active" href="contact.html" aria-current="page">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-main">
+    <section class="page-hero page-hero--compact">
+      <p class="eyebrow">Обратная связь</p>
+      <h1 class="page-hero__title">Есть <span>вопрос?</span></h1>
+      <p class="page-hero__text">Предложи тему для следующего материала или оставь сообщение автору проекта.</p>
+    </section>
+
+    <section class="contact-layout">
+      <aside class="contact-aside">
+        <div class="contact-aside__orb" aria-hidden="true">✳</div>
+        <p class="eyebrow">Твоя идея важна</p>
+        <h2>Наука движется вперёд благодаря вопросам.</h2>
+      </aside>
+
+      <form class="contact-form" id="contact-form">
+        <div class="contact-form__heading"><h2>Написать сообщение</h2><p>Поля, отмеченные звёздочкой, обязательны.</p></div>
+        <div class="form-field">
+          <label class="form-field__label" for="visitor-name">Как к тебе обращаться <span>*</span></label>
+          <input class="form-field__control" id="visitor-name" name="name" type="text" placeholder="Например, Алексей" autocomplete="name" minlength="2" maxlength="80" required>
+        </div>
+        <div class="form-field">
+          <label class="form-field__label" for="visitor-email">Электронная почта <span>*</span></label>
+          <input class="form-field__control" id="visitor-email" name="email" type="email" placeholder="name@example.com" autocomplete="email" maxlength="120" required>
+        </div>
+        <div class="form-field">
+          <label class="form-field__label" for="message-topic">Тема сообщения <span>*</span></label>
+          <select class="form-field__control" id="message-topic" name="topic" required>
+            <option value="" selected disabled>Выбери тему</option>
+            <option value="Вопрос по физике">Вопрос по физике</option>
+            <option value="Идея для статьи">Идея для статьи</option>
+            <option value="Сотрудничество">Сотрудничество</option>
+            <option value="Отзыв о сайте">Отзыв о сайте</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label class="form-field__label" for="visitor-message">Сообщение <span>*</span></label>
+          <textarea class="form-field__control form-field__control--textarea" id="visitor-message" name="message" rows="5" placeholder="Расскажи подробнее..." minlength="5" maxlength="1500" required></textarea>
+          <span class="form-field__hint">От 5 до 1500 символов</span>
+        </div>
+        <label class="consent-check" for="data-consent">
+          <input id="data-consent" name="consent" type="checkbox" value="yes" required>
+          <span class="consent-check__box" aria-hidden="true"></span>
+          <span>Я согласен(на) на обработку данных, указанных в этой форме, для ответа на сообщение. <span>*</span></span>
+        </label>
+        <button class="button button--primary contact-form__submit" type="submit">Отправить сообщение <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container site-footer__inner"><a class="brand brand--footer" href="../index.html"><span class="brand__mark" aria-hidden="true">✳</span><span class="brand__text">Физика <span>сегодня</span></span></a><p>Исследуй. Сомневайся. Открывай.</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru" class="page-facts">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Удивительные факты физики и справочник планет Солнечной системы.">
+  <title>Физика сегодня - факты и астрономия</title>
+  <link rel="icon" href="../images/atom.svg" type="image/svg+xml">
+  <script>
+    if (!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('motion-enabled');
+    }
+  </script>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner container">
+      <a class="brand" href="../index.html" aria-label="Физика сегодня - главная"><span class="brand__mark" aria-hidden="true">✳</span><span class="brand__text">Физика <span>сегодня</span></span></a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav__link" href="../index.html">Главная</a>
+        <a class="site-nav__link site-nav__link--active" href="facts.html" aria-current="page">Факты и астрономия</a>
+        <a class="site-nav__link" href="about.html">О себе</a>
+        <a class="site-nav__link site-nav__link--accent" href="contact.html">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-main">
+    <section class="page-hero page-hero--compact">
+      <p class="eyebrow">Коротко о большом</p>
+      <h1 class="page-hero__title">Удивительное <span>рядом</span></h1>
+      <p class="page-hero__text">Физика помогает увидеть необычное в привычном и понять масштаб нашего космического дома.</p>
+    </section>
+
+    <section class="section section--tight">
+      <div class="section-heading section-heading--simple">
+        <div><p class="eyebrow">Проверь свою интуицию</p><h2 class="section-heading__title">Пять фактов о <span>Вселенной</span></h2></div>
+      </div>
+      <div class="facts-grid">
+        <article class="fact-card fact-card--featured">
+          <span class="fact-card__index">01 / СВЕТ</span>
+          <p class="fact-card__value">299 792 458 <small>м/с</small></p>
+          <h3>Предельная скорость</h3>
+          <p>Такова скорость света в вакууме. Согласно современной физике, быстрее передать информацию нельзя.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-card__index">02 / СОЛНЦЕ</span>
+          <p class="fact-card__value">99,85<small>%</small></p>
+          <h3>Масса системы</h3>
+          <p>Солнце содержит около 99,85% массы Солнечной системы.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-card__index">03 / ЗВЁЗДЫ</span>
+          <p class="fact-card__value">Звёздная <small>пыль</small></p>
+          <h3>Мы - часть космоса</h3>
+          <p>Многие элементы тяжелее водорода и гелия образовались внутри звёзд или при звёздных взрывах.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-card__index">04 / ВЕНЕРА</span>
+          <p class="fact-card__value">243 <small>дня</small></p>
+          <h3>Медленное вращение</h3>
+          <p>Сидерический период вращения Венеры - около 243 земных суток, а год на Венере длится примерно 224,7 суток. Венера вращается в обратном направлении по сравнению с большинством планет.</p>
+        </article>
+        <article class="fact-card">
+          <span class="fact-card__index">05 / ГРАВИТАЦИЯ</span>
+          <p class="fact-card__value">Пространство <small>и время</small></p>
+          <h3>Геометрия Вселенной</h3>
+          <p>Согласно общей теории относительности, масса и энергия влияют на геометрию пространства-времени.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section planets-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">Наш космический адрес</p><h2 class="section-heading__title">Планеты <span>Солнечной системы</span></h2></div>
+      </div>
+      <div class="table-wrap">
+        <table class="planets-table">
+          <thead><tr><th scope="col">Планета</th><th scope="col">Средний диаметр, км</th><th scope="col">Средняя дистанция от Солнца, млн км</th><th scope="col">Известные спутники*</th></tr></thead>
+          <tbody>
+            <tr><th scope="row"><span class="planet-dot planet-dot--mercury"></span>Меркурий</th><td>4 879</td><td>57,9</td><td>0</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--venus"></span>Венера</th><td>12 104</td><td>108,2</td><td>0</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--earth"></span>Земля</th><td>12 742</td><td>149,6</td><td>1</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--mars"></span>Марс</th><td>6 779</td><td>227,9</td><td>2</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--jupiter"></span>Юпитер</th><td>139 822</td><td>778,3</td><td>115</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--saturn"></span>Сатурн</th><td>116 464</td><td>1 426,7</td><td>293</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--uranus"></span>Уран</th><td>50 724</td><td>2 870,7</td><td>29</td></tr>
+            <tr><th scope="row"><span class="planet-dot planet-dot--neptune"></span>Нептун</th><td>49 244</td><td>4 498,4</td><td>16</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="cosmos-callout">
+      <div class="cosmos-callout__text"><p class="eyebrow">Продолжай исследование</p><h2>Следующий вопрос может привести к большому открытию.</h2><a class="button button--primary" href="contact.html">Предложить тему <span aria-hidden="true">→</span></a></div>
+      <img class="cosmos-callout__image" src="../images/space.svg" alt="Стилизованное изображение планеты и звёзд" loading="lazy">
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container site-footer__inner"><a class="brand brand--footer" href="../index.html"><span class="brand__mark" aria-hidden="true">✳</span><span class="brand__text">Физика <span>сегодня</span></span></a><p>Исследуй. Сомневайся. Открывай.</p></div></footer>
+</body>
+</html>
