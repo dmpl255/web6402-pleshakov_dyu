@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru" class="page-home">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Физика сегодня - новости науки, интересные факты и астрономия.">
+  <title>Физика сегодня - главная</title>
+  <link rel="icon" href="images/atom.svg" type="image/svg+xml">
+  <script>
+    if (!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('motion-enabled');
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner container">
+      <a class="brand" href="index.html" aria-label="Физика сегодня - главная">
+        <span class="brand__mark" aria-hidden="true">✳</span>
+        <span class="brand__text">Физика <span>сегодня</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav__link site-nav__link--active" href="index.html" aria-current="page">Главная</a>
+        <a class="site-nav__link" href="html/facts.html">Факты и астрономия</a>
+        <a class="site-nav__link" href="html/about.html">О себе</a>
+        <a class="site-nav__link site-nav__link--accent" href="html/contact.html">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero__content">
+        <p class="eyebrow"><span class="eyebrow__dot"></span> Наука начинается с вопроса</p>
+        <h1 class="hero__title">Мир гораздо <span>интереснее,</span> чем кажется</h1>
+        <p class="hero__text">От элементарных частиц до далёких галактик — открываем законы, которые формируют нашу Вселенную.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="html/facts.html">Исследовать факты <span aria-hidden="true">→</span></a>
+          <a class="button button--ghost" href="#news">Читать новости</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-label="Стилизованная модель атома" role="img">
+        <div class="atom-art">
+          <span class="atom-art__core"></span>
+          <span class="atom-art__orbit atom-art__orbit--one"><i></i></span>
+          <span class="atom-art__orbit atom-art__orbit--two"><i></i></span>
+          <span class="atom-art__orbit atom-art__orbit--three"><i></i></span>
+          <span class="atom-art__halo"></span>
+        </div>
+        <span class="hero__visual-label hero__visual-label--top">∞ Вселенная</span>
+        <span class="hero__visual-label hero__visual-label--bottom">13,8 млрд лет</span>
+      </div>
+    </section>
+
+
+    <section class="section section--news container" id="news">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Научная картина дня</p>
+          <h2 class="section-heading__title">Новости <span>физики</span></h2>
+        </div>
+      </div>
+
+      <div class="news-list">
+        <article class="news-card">
+          <div class="news-card__number">01</div>
+          <div class="news-card__body">
+            <p class="news-card__tag">Фундаментальная наука</p>
+            <h3>Нобелевская премия по физике</h3>
+            <p>Премия отмечает открытия, которые расширяют границы человеческого знания и меняют технологии будущего.</p>
+            <a class="text-link" href="https://www.nobelprize.org/prizes/physics/" target="_blank" rel="noopener noreferrer">История премии <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__number">02</div>
+          <div class="news-card__body">
+            <p class="news-card__tag">Астрофизика</p>
+            <h3>Телескоп «Джеймс Уэбб»</h3>
+            <p>Космическая обсерватория исследует ранние галактики, атмосферы экзопланет и рождение звёзд.</p>
+            <a class="text-link" href="https://webb.nasa.gov/" target="_blank" rel="noopener noreferrer">Миссия NASA <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__number">03</div>
+          <div class="news-card__body">
+            <p class="news-card__tag">Энергетика</p>
+            <h3>Исследования термоядерного синтеза</h3>
+            <p>Международные эксперименты помогают приблизиться к управляемой реакции, питающей звёзды.</p>
+            <a class="text-link" href="https://www.iter.org/" target="_blank" rel="noopener noreferrer">Проект ITER <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-band">
+      <div class="container feature-band__inner">
+        <div class="feature-band__copy">
+          <p class="eyebrow">От микромира к макромиру</p>
+          <h2>Один набор законов - <span>бесконечность открытий</span></h2>
+          <p>Изучай свойства материи, движение небесных тел и явления, которые ещё недавно казались фантастикой.</p>
+          <a class="button button--light" href="html/facts.html">Перейти к фактам <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="feature-band__art" aria-hidden="true">
+          <div class="planet planet--large"></div>
+          <div class="planet planet--small"></div>
+          <div class="planet__ring"></div>
+          <span class="feature-band__star feature-band__star--one">✦</span>
+          <span class="feature-band__star feature-band__star--two">·</span>
+          <span class="feature-band__star feature-band__star--three">✧</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="brand brand--footer" href="index.html"><span class="brand__mark" aria-hidden="true">✳</span><span class="brand__text">Физика <span>сегодня</span></span></a>
+      <p>Исследуй. Сомневайся. Открывай.</p>
+    </div>
+  </footer>
+</body>
+</html>

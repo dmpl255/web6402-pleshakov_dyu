@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Планета в космосе</title>
+  <desc id="desc">Стилизованная бирюзовая планета, кольцо и звёзды на тёмном фоне.</desc>
+  <defs>
+    <radialGradient id="planet" cx="30%" cy="25%" r="80%"><stop offset="0" stop-color="#8ae8d3"/><stop offset=".48" stop-color="#338c91"/><stop offset="1" stop-color="#122e4d"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4c875"/><stop offset="1" stop-color="#8c9eae"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#60d9c3" stop-opacity=".28"/><stop offset="1" stop-color="#60d9c3" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="220" cy="150" r="140" fill="url(#glow)"/>
+  <g fill="#edf4ff" opacity=".82"><circle cx="62" cy="65" r="2"/><circle cx="344" cy="49" r="1.8"/><circle cx="363" cy="225" r="2.2"/><circle cx="100" cy="238" r="1.5"/><circle cx="285" cy="30" r="1.2"/><circle cx="37" cy="170" r="1.3"/></g>
+  <path d="M95 171c49-45 178-64 253-18-39 56-185 89-253 18Z" fill="none" stroke="url(#ring)" stroke-width="8" opacity=".9"/>
+  <circle cx="220" cy="145" r="81" fill="url(#planet)"/>
+  <path d="M150 117c32 10 51 4 67-8 15-11 31-15 62-8M147 159c36-9 59-2 78 10 20 12 40 14 64 5" fill="none" stroke="#b1f0de" stroke-opacity=".34" stroke-width="7" stroke-linecap="round"/>
+  <path d="M116 170c56 34 167 17 232-16" fill="none" stroke="#f4c875" stroke-width="2" opacity=".9"/>
+  <path d="m318 89 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#f4c875"/>
+  <path d="m93 94 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#60d9c3"/>
+</svg>
